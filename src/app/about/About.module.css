@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content {
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 800px;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #888;
+}
