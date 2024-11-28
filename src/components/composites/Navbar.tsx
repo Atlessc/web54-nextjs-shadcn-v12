@@ -16,7 +16,10 @@ const NavBar = () => {
     <div className="flex w-full justify-between px-3 py-3 bg">
 
       <h1 className="font-bold text-2xl">
-        <Link href="/" prefetch={true}>
+        <Link 
+          href="/" 
+          prefetch={true}
+        >
           Company Name
         </Link>
       </h1>
